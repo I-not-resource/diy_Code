@@ -1,0 +1,14 @@
+--cpu Cortex-M4
+"..\output\main.o"
+"..\output\freescale_gpio.o"
+"..\output\freescale_sim.o"
+"..\output\freescale_pit.o"
+"..\output\freescale_usart.o"
+"..\output\freescale_adc.o"
+"..\output\system32.o"
+"..\output\system_mk60d10.o"
+"..\output\startup_mk60dz10.o"
+--strict --scatter "..\OutPut\K60.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\K60.map" -o ..\OutPut\K60.axf

@@ -1,0 +1,138 @@
+Dependencies for Project 'K60', Target 'freescale': (DO NOT MODIFY !)
+F (..\System\main.c)(0x56DD965E)(-c --cpu Cortex-M4 -g -O2 --apcs=interwork --split_sections -I..\System -I..\System\SYS -I..\System\STA -I..\software -I..\Hardware -I..\Hardware\inc -I..\Hardware\src-I "D:\PC Data\32bit\Freescale\First\project\RTE"-I "D:\APP Data\keil5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include"-I "D:\APP Data\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="516" -DMK60DN512xxx10 -DUSE_STDPERIPH_DRIVER-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\System\SYS\Includes.h)(0x56DBDE65)
+I (..\System\SYS\System32.h)(0x56DC062B)
+I (..\System\SYS\MK60D10.h)(0x56D86D52)
+I (..\System\SYS\system_MK60D10.h)(0x56D8657A)
+I (D:\APP Data\keil5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (..\System\SYS\core_cm4.h)(0x512C1E62)
+I (..\System\SYS\core_cmInstr.h)(0x53C7D530)
+I (..\System\SYS\core_cmFunc.h)(0x53C7D530)
+I (..\System\SYS\core_cm4_simd.h)(0x53C7D530)
+I (..\System\SYS\freescale_config.h)(0x56DD6A85)
+I (..\Hardware\inc\freescale_sim.h)(0x56DD76C3)
+I (..\System\SYS\AllDefine.h)(0x56C71893)
+I (..\Hardware\inc\freescale_gpio.h)(0x56DD69AB)
+I (..\Hardware\inc\freescale_pit.h)(0x56D3C694)
+I (..\Hardware\inc\freescale_usart.h)(0x56DBEBF4)
+I (..\Hardware\inc\freescale_adc.h)(0x56DD8BBC)
+I (D:\APP Data\keil5\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (D:\APP Data\keil5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+F (..\Hardware\src\freescale_gpio.c)(0x56D84FC2)(-c --cpu Cortex-M4 -g -O2 --apcs=interwork --split_sections -I..\System -I..\System\SYS -I..\System\STA -I..\software -I..\Hardware -I..\Hardware\inc -I..\Hardware\src-I "D:\PC Data\32bit\Freescale\First\project\RTE"-I "D:\APP Data\keil5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include"-I "D:\APP Data\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="516" -DMK60DN512xxx10 -DUSE_STDPERIPH_DRIVER-o ..\output\freescale_gpio.o --omf_browse ..\output\freescale_gpio.crf --depend ..\output\freescale_gpio.d)
+I (..\Hardware\inc\freescale_gpio.h)(0x56DD69AB)
+I (..\System\SYS\MK60D10.h)(0x56D86D52)
+I (..\System\SYS\system_MK60D10.h)(0x56D8657A)
+I (D:\APP Data\keil5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (..\System\SYS\core_cm4.h)(0x512C1E62)
+I (..\System\SYS\core_cmInstr.h)(0x53C7D530)
+I (..\System\SYS\core_cmFunc.h)(0x53C7D530)
+I (..\System\SYS\core_cm4_simd.h)(0x53C7D530)
+I (..\System\SYS\freescale_config.h)(0x56DD6A85)
+I (..\Hardware\inc\freescale_sim.h)(0x56DD76C3)
+I (..\System\SYS\AllDefine.h)(0x56C71893)
+I (..\Hardware\inc\freescale_pit.h)(0x56D3C694)
+I (..\Hardware\inc\freescale_usart.h)(0x56DBEBF4)
+I (..\Hardware\inc\freescale_adc.h)(0x56DD8BBC)
+I (D:\APP Data\keil5\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+F (..\Hardware\src\freescale_sim.c)(0x56DD69AB)(-c --cpu Cortex-M4 -g -O2 --apcs=interwork --split_sections -I..\System -I..\System\SYS -I..\System\STA -I..\software -I..\Hardware -I..\Hardware\inc -I..\Hardware\src-I "D:\PC Data\32bit\Freescale\First\project\RTE"-I "D:\APP Data\keil5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include"-I "D:\APP Data\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="516" -DMK60DN512xxx10 -DUSE_STDPERIPH_DRIVER-o ..\output\freescale_sim.o --omf_browse ..\output\freescale_sim.crf --depend ..\output\freescale_sim.d)
+I (..\Hardware\inc\freescale_sim.h)(0x56DD76C3)
+I (..\System\SYS\MK60D10.h)(0x56D86D52)
+I (..\System\SYS\system_MK60D10.h)(0x56D8657A)
+I (D:\APP Data\keil5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (..\System\SYS\core_cm4.h)(0x512C1E62)
+I (..\System\SYS\core_cmInstr.h)(0x53C7D530)
+I (..\System\SYS\core_cmFunc.h)(0x53C7D530)
+I (..\System\SYS\core_cm4_simd.h)(0x53C7D530)
+I (..\System\SYS\freescale_config.h)(0x56DD6A85)
+I (..\Hardware\inc\freescale_gpio.h)(0x56DD69AB)
+I (..\Hardware\inc\freescale_pit.h)(0x56D3C694)
+I (..\System\SYS\AllDefine.h)(0x56C71893)
+I (..\Hardware\inc\freescale_usart.h)(0x56DBEBF4)
+I (..\Hardware\inc\freescale_adc.h)(0x56DD8BBC)
+I (D:\APP Data\keil5\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+F (..\Hardware\src\freescale_pit.c)(0x56D3C746)(-c --cpu Cortex-M4 -g -O2 --apcs=interwork --split_sections -I..\System -I..\System\SYS -I..\System\STA -I..\software -I..\Hardware -I..\Hardware\inc -I..\Hardware\src-I "D:\PC Data\32bit\Freescale\First\project\RTE"-I "D:\APP Data\keil5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include"-I "D:\APP Data\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="516" -DMK60DN512xxx10 -DUSE_STDPERIPH_DRIVER-o ..\output\freescale_pit.o --omf_browse ..\output\freescale_pit.crf --depend ..\output\freescale_pit.d)
+I (..\Hardware\inc\freescale_pit.h)(0x56D3C694)
+I (..\System\SYS\MK60D10.h)(0x56D86D52)
+I (..\System\SYS\system_MK60D10.h)(0x56D8657A)
+I (D:\APP Data\keil5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (..\System\SYS\core_cm4.h)(0x512C1E62)
+I (..\System\SYS\core_cmInstr.h)(0x53C7D530)
+I (..\System\SYS\core_cmFunc.h)(0x53C7D530)
+I (..\System\SYS\core_cm4_simd.h)(0x53C7D530)
+I (..\System\SYS\freescale_config.h)(0x56DD6A85)
+I (..\Hardware\inc\freescale_sim.h)(0x56DD76C3)
+I (..\System\SYS\AllDefine.h)(0x56C71893)
+I (..\Hardware\inc\freescale_gpio.h)(0x56DD69AB)
+I (..\Hardware\inc\freescale_usart.h)(0x56DBEBF4)
+I (..\Hardware\inc\freescale_adc.h)(0x56DD8BBC)
+I (D:\APP Data\keil5\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+F (..\Hardware\src\freescale_usart.c)(0x56DD899B)(-c --cpu Cortex-M4 -g -O2 --apcs=interwork --split_sections -I..\System -I..\System\SYS -I..\System\STA -I..\software -I..\Hardware -I..\Hardware\inc -I..\Hardware\src-I "D:\PC Data\32bit\Freescale\First\project\RTE"-I "D:\APP Data\keil5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include"-I "D:\APP Data\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="516" -DMK60DN512xxx10 -DUSE_STDPERIPH_DRIVER-o ..\output\freescale_usart.o --omf_browse ..\output\freescale_usart.crf --depend ..\output\freescale_usart.d)
+I (..\Hardware\inc\freescale_usart.h)(0x56DBEBF4)
+I (..\System\SYS\MK60D10.h)(0x56D86D52)
+I (..\System\SYS\system_MK60D10.h)(0x56D8657A)
+I (D:\APP Data\keil5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (..\System\SYS\core_cm4.h)(0x512C1E62)
+I (..\System\SYS\core_cmInstr.h)(0x53C7D530)
+I (..\System\SYS\core_cmFunc.h)(0x53C7D530)
+I (..\System\SYS\core_cm4_simd.h)(0x53C7D530)
+I (..\System\SYS\freescale_config.h)(0x56DD6A85)
+I (..\Hardware\inc\freescale_sim.h)(0x56DD76C3)
+I (..\System\SYS\AllDefine.h)(0x56C71893)
+I (..\Hardware\inc\freescale_gpio.h)(0x56DD69AB)
+I (..\Hardware\inc\freescale_pit.h)(0x56D3C694)
+I (..\Hardware\inc\freescale_adc.h)(0x56DD8BBC)
+I (D:\APP Data\keil5\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+F (..\Hardware\src\freescale_adc.c)(0x56DD8FB6)(-c --cpu Cortex-M4 -g -O2 --apcs=interwork --split_sections -I..\System -I..\System\SYS -I..\System\STA -I..\software -I..\Hardware -I..\Hardware\inc -I..\Hardware\src-I "D:\PC Data\32bit\Freescale\First\project\RTE"-I "D:\APP Data\keil5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include"-I "D:\APP Data\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="516" -DMK60DN512xxx10 -DUSE_STDPERIPH_DRIVER-o ..\output\freescale_adc.o --omf_browse ..\output\freescale_adc.crf --depend ..\output\freescale_adc.d)
+I (..\Hardware\inc\freescale_adc.h)(0x56DD8BBC)
+I (..\System\SYS\MK60D10.h)(0x56D86D52)
+I (..\System\SYS\system_MK60D10.h)(0x56D8657A)
+I (D:\APP Data\keil5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (..\System\SYS\core_cm4.h)(0x512C1E62)
+I (..\System\SYS\core_cmInstr.h)(0x53C7D530)
+I (..\System\SYS\core_cmFunc.h)(0x53C7D530)
+I (..\System\SYS\core_cm4_simd.h)(0x53C7D530)
+I (..\System\SYS\freescale_config.h)(0x56DD6A85)
+I (..\Hardware\inc\freescale_sim.h)(0x56DD76C3)
+I (..\System\SYS\AllDefine.h)(0x56C71893)
+I (..\Hardware\inc\freescale_gpio.h)(0x56DD69AB)
+I (..\Hardware\inc\freescale_pit.h)(0x56D3C694)
+I (..\Hardware\inc\freescale_usart.h)(0x56DBEBF4)
+I (D:\APP Data\keil5\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+F (..\System\SYS\System32.c)(0x56DC0DE4)(-c --cpu Cortex-M4 -g -O2 --apcs=interwork --split_sections -I..\System -I..\System\SYS -I..\System\STA -I..\software -I..\Hardware -I..\Hardware\inc -I..\Hardware\src-I "D:\PC Data\32bit\Freescale\First\project\RTE"-I "D:\APP Data\keil5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include"-I "D:\APP Data\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="516" -DMK60DN512xxx10 -DUSE_STDPERIPH_DRIVER-o ..\output\system32.o --omf_browse ..\output\system32.crf --depend ..\output\system32.d)
+I (..\System\SYS\System32.h)(0x56DC062B)
+I (..\System\SYS\MK60D10.h)(0x56D86D52)
+I (..\System\SYS\system_MK60D10.h)(0x56D8657A)
+I (D:\APP Data\keil5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (..\System\SYS\core_cm4.h)(0x512C1E62)
+I (..\System\SYS\core_cmInstr.h)(0x53C7D530)
+I (..\System\SYS\core_cmFunc.h)(0x53C7D530)
+I (..\System\SYS\core_cm4_simd.h)(0x53C7D530)
+I (..\System\SYS\freescale_config.h)(0x56DD6A85)
+I (..\Hardware\inc\freescale_sim.h)(0x56DD76C3)
+I (..\System\SYS\AllDefine.h)(0x56C71893)
+I (..\Hardware\inc\freescale_gpio.h)(0x56DD69AB)
+I (..\Hardware\inc\freescale_pit.h)(0x56D3C694)
+I (..\Hardware\inc\freescale_usart.h)(0x56DBEBF4)
+I (..\Hardware\inc\freescale_adc.h)(0x56DD8BBC)
+I (D:\APP Data\keil5\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+F (..\System\SYS\system_MK60D10.c)(0x534BE7FD)(-c --cpu Cortex-M4 -g -O2 --apcs=interwork --split_sections -I..\System -I..\System\SYS -I..\System\STA -I..\software -I..\Hardware -I..\Hardware\inc -I..\Hardware\src-I "D:\PC Data\32bit\Freescale\First\project\RTE"-I "D:\APP Data\keil5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include"-I "D:\APP Data\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="516" -DMK60DN512xxx10 -DUSE_STDPERIPH_DRIVER-o ..\output\system_mk60d10.o --omf_browse ..\output\system_mk60d10.crf --depend ..\output\system_mk60d10.d)
+I (D:\APP Data\keil5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (..\System\SYS\MK60D10.h)(0x56D86D52)
+I (..\System\SYS\system_MK60D10.h)(0x56D8657A)
+I (..\System\SYS\core_cm4.h)(0x512C1E62)
+I (..\System\SYS\core_cmInstr.h)(0x53C7D530)
+I (..\System\SYS\core_cmFunc.h)(0x53C7D530)
+I (..\System\SYS\core_cm4_simd.h)(0x53C7D530)
+I (..\System\SYS\freescale_config.h)(0x56DD6A85)
+I (..\Hardware\inc\freescale_sim.h)(0x56DD76C3)
+I (..\System\SYS\AllDefine.h)(0x56C71893)
+I (..\Hardware\inc\freescale_gpio.h)(0x56DD69AB)
+I (..\Hardware\inc\freescale_pit.h)(0x56D3C694)
+I (..\Hardware\inc\freescale_usart.h)(0x56DBEBF4)
+I (..\Hardware\inc\freescale_adc.h)(0x56DD8BBC)
+I (D:\APP Data\keil5\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+F (..\System\STA\startup_MK60DZ10.s)(0x53379436)(--cpu Cortex-M4 -g --apcs=interwork -I "D:\PC Data\32bit\Freescale\First\project\RTE"-I "D:\APP Data\keil5\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include"-I "D:\APP Data\keil5\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 516" --pd "MK60DN512xxx10 SETA 1"--list .\listings\startup_mk60dz10.lst --xref -o ..\output\startup_mk60dz10.o --depend ..\output\startup_mk60dz10.d)
+F (..\System\SYS\Includes.h)(0x56DBDE65)()
+F (..\System\SYS\AllDefine.h)(0x56C71893)()
+F (..\System\SYS\common.h)(0x534BF99A)()
+F (..\System\SYS\freescale_config.h)(0x56DD6A85)()
